@@ -96,6 +96,7 @@ header .menu i {
   display: flex;
   justify-content: center;
   list-style: none;
+  overflow-x: scroll;
 }
 
 .category_img li {
