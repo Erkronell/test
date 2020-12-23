@@ -1,0 +1,190 @@
+:root {
+  /* color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --res-name-kor-color: #070707;
+  --res-name-eng-color: #6c6c6c;
+  --res-description-color: #909090;
+
+  /* size */
+  --padding: 12px;
+  --logo-size: 36px;
+  --res-logo-size: 30;
+
+  /* font size */
+  --font-title: 20px;
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+@font-face {
+  src: url("img/font/seoul\ cbl.ttf");
+  font-family: "seoul";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "seoul";
+}
+
+header {
+  background-color: #1985c1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(var(--padding) * 2);
+}
+.logo_img {
+  width: 100%;
+}
+
+header .logo_img .logo {
+  width: 70px;
+  height: 70px;
+}
+
+header .title {
+  width: 100%;
+  text-align: center;
+}
+
+header .menu {
+  width: 100%;
+  text-align: right;
+}
+.title {
+  color: #e3f2fd;
+}
+header .menu i {
+  font-size: calc(var(--font-large) * 2);
+  cursor: pointer;
+  color: #97e6ff;
+}
+
+.advertising .banners {
+  height: 100px;
+  background-color: cadetblue;
+  display: none;
+}
+.categories {
+  background-color: #60b4f4;
+  position: sticky;
+  top: 0;
+}
+
+.categories .location {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.categories .location li img {
+  width: 60px;
+  cursor: pointer;
+  background: none;
+}
+.categories .location li {
+  padding: 10px;
+}
+.categories .location li:hover {
+  background-color: #97e6ff;
+  border-radius: 10px;
+  transform: scale(1.1);
+}
+
+.category_img {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+}
+
+.category_img li {
+  cursor: pointer;
+  padding: 10px;
+}
+.category_img li:hover {
+  background-color: #1985c1;
+  color: white;
+  border-radius: 15px;
+  transform: scale(1.1);
+}
+
+.category_img li img {
+  width: 80px;
+  border-radius: 50%;
+}
+.category_img li span {
+  display: block;
+  text-align: center;
+}
+
+.restaurants {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.restaurants_list {
+  width: 90%;
+  max-width: 1300px;
+}
+
+.restaurant {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 15px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.restaurant:hover {
+  background-color: #97e6ff;
+  border-radius: 20px;
+}
+
+.res_logo img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.res_information {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.res_information span {
+  display: block;
+  padding: 3px;
+}
+
+.name_eng {
+  font-size: 45px;
+}
+
+.name_kor {
+  font-size: 35px;
+}
+.description {
+  padding-bottom: 2px;
+}
+
+.distance {
+  background-color: #1985c1;
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+}
