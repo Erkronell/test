@@ -1,0 +1,14 @@
+color # a7083c (togonau head)
+pickup online order #fff694
+
+category grey line #cecece
+category select (red) #940707
+
+order button #2d569a
+call button #940707
+
+한글 텍스트 (가게명) #070707
+영어 텍스트 (가게명)6c6c6c
+
+가게설명 텍스트 #909090
+상세 텍스트 #f35d2f
