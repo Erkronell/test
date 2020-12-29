@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/bx/jquery.bxslider.css" />    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/bx/jquery.bxslider.min.js"></script>
     <script
       src="https://kit.fontawesome.com/2bf10eb5a9.js"
       crossorigin="anonymous"
@@ -22,7 +25,11 @@
       </div>
     </header>
     <section class="advertising">
-      <div class="banners"></div>
+      <div class="slider">
+        <div><img src="img/main-image.png" alt="" /></div>
+        <div><img src="img/KakaoTalk_20201229_160022774.jpg" alt="" /></div>
+        <div><img src="img/KakaoTalk_20201229_160022774_01.jpg" alt="" /></div>
+      </div>
     </section>
     <section class="categories">
       <ul class="location">
@@ -185,5 +192,14 @@
     <footer>
       <span class="copyright">Copyright 2021 togonau.com All Rights Reserved</span>
     </footer>
+    <script>
+      $(document).ready(function () {
+        $(".slider").bxSlider({
+          mode: "fade",
+          auto: true,
+          pager: false,
+        });
+      });
+    </script>
   </body>
 </html>
