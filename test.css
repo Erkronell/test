@@ -1,0 +1,27 @@
+:root {
+  /* color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --res-name-kor-color: #070707;
+  --res-name-eng-color: #6c6c6c;
+  --res-description-color: #909090;
+
+  /* size */
+  --padding: 8px;
+  --logo-size: 36px;
+  --res-logo-size: 30px;
+
+  /* font size */
+  --font-title: 20px;
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
