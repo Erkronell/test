@@ -85,12 +85,8 @@ header .header__logo span {
   margin-left: var(--padding);
 }
 
-.slider img {
-  border-radius: 20px;
-}
-
 .slider2 img {
-  border-radius: 10px;
+  border-radius: 50%;
 }
 .categories {
   background-color: white;
