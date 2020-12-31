@@ -7,21 +7,17 @@
   --res-description-color: #909090;
 
   /* size */
-  --padding: 8px;
+  --padding: 16px;
   --logo-size: 36px;
   --res-logo-size: 30px;
+  --location-img-size: 50px;
 
   /* font size */
-  --font-title: 24px;
-  --font-large: 18px;
-  --font-medium: 14px;
+  --font-title: 48px;
+  --font-large: 36px;
+  --font-medium: 20px;
   --font-small: 12px;
   --font-micro: 10px;
-}
-
-@font-face {
-  src: url("img/font/seoul\ cbl.ttf");
-  font-family: "seoul";
 }
 
 * {
@@ -31,93 +27,71 @@
 }
 
 body {
-  font-family: "seoul";
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.body__ {
+  width: 70%;
+  margin: auto;
 }
 
 header {
-  background-color: #1985c1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--padding);
 }
 
-header .title {
-  color: #e3f2fd;
+header .header__logo {
+  flex: 1;
 }
 
-header .title .title_name {
-  font-size: var(--font-large);
-}
-
-header .title .title_ad {
-  font-size: var(--font-medium);
-}
-
-header .menu i {
+header .header__logo span {
   font-size: var(--font-title);
-  cursor: pointer;
-  color: #97e6ff;
+  font-weight: 700;
 }
 
-.advertising .banners {
-  height: 100px;
-  background-color: cadetblue;
-  display: none;
+.header__locations {
+  flex: 1;
 }
 
-.categories {
-  background-color: #60b4f4;
-  position: sticky;
-  top: 0;
-}
-
-.categories .location {
+.location {
   display: flex;
+  width: 100%;
   list-style: none;
-  justify-content: center;
 }
 
-.categories .location li img {
-  width: 30px;
+.location li img {
+  width: var(--location-img-size);
   cursor: pointer;
 }
 
-.categories .location li {
+.location li {
   padding: 5px;
+  margin: 0px 5px;
 }
-.categories .location li:hover {
+
+.location li:hover {
   background-color: #97e6ff;
   border-radius: 10px;
   transform: scale(1.1);
 }
 
-.category_img {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  overflow-x: scroll;
+.header__menu {
+  /* width: 100%; */
+  flex: 1;
+  text-align: right;
 }
-
-.category_img li {
+.header__menu i {
+  font-size: var(--font-large);
   cursor: pointer;
-  padding: 5px;
-}
-.category_img li:hover {
-  background-color: #1985c1;
-  color: white;
-  border-radius: 15px;
-  transform: scale(1.1);
 }
 
-.category_img li img {
-  width: 50px;
-  border-radius: 50%;
-}
-
-.category_img li span {
-  display: block;
-  text-align: center;
+.categories {
+  background-color: white;
+  position: sticky;
+  top: 0;
 }
 
 .restaurants {
@@ -126,45 +100,95 @@ header .menu i {
 
 .restaurant {
   display: flex;
-  /* margin-bottom: 10px; */
-  padding: 5px;
+  margin-bottom: 10px;
+
   justify-content: space-between;
   cursor: pointer;
 }
-.restaurant:hover {
+
+/* .restaurant:hover {
   background-color: #97e6ff;
   border-radius: 20px;
-}
+} */
 
 .res_logo img {
-  width: 90px;
+  width: 150px;
   border-radius: 10px;
 }
 
 .res_information {
   width: 100%;
 }
+
 .res_information span {
   display: block;
-  padding: 3px;
-}
-
-.name_eng {
-  font-size: 18px;
 }
 
 .name_kor {
-  font-size: 16px;
+  font-size: var(--font-large);
+  font-weight: 700;
+}
+
+.name_eng {
+  font-size: var(--font-large);
+  font-weight: 700;
+}
+
+.res_distance {
+  padding: calc(var(--padding) / 2);
+}
+
+.description {
+  font-size: var(--font-medium);
 }
 
 .distance {
   background-color: #1985c1;
   color: #fff;
-  font-size: var(--font-micro);
-  padding: 4px;
-  border-radius: 3px;
+  font-size: var(--font-medium);
+  padding: 6px;
+  border-radius: 4px;
 }
 
 footer {
   text-align: center;
+}
+
+@media all and (max-width: 900px) {
+  :root {
+    /* size */
+    --padding: 8px;
+    --logo-size: 36px;
+    --res-logo-size: 30px;
+    --location-img-size: 20px;
+
+    /* font size */
+    --font-title: 24px;
+    --font-large: 18px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+  }
+
+  .body__ {
+    width: 100%;
+  }
+
+  .location li {
+    padding: 2px;
+    margin: 2px;
+  }
+
+  .header__menu i {
+    font-size: var(--font-title);
+    cursor: pointer;
+  }
+  .res_logo img {
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  .description {
+    font-size: var(--font-small);
+  }
 }
