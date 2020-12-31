@@ -163,7 +163,7 @@ footer {
     --location-img-size: 20px;
 
     /* font size */
-    --font-title: 24px;
+    --font-title: 20px;
     --font-large: 18px;
     --font-medium: 14px;
     --font-small: 12px;
@@ -184,7 +184,7 @@ footer {
     cursor: pointer;
   }
   .res_logo img {
-    width: 100px;
+    width: 80px;
     border-radius: 10px;
   }
 
