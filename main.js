@@ -27,7 +27,7 @@ navigator.geolocation.getCurrentPosition(function(pos) {
 });
 
 function loadItems() {
-  return fetch('/data/db.json')
+  return fetch('data/db.json')
   .then(response => response.json())
   .then(json => json.restaurants_list);
 }
