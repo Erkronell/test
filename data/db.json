@@ -1,7 +1,7 @@
 {
   "restaurants_list": [{
       "id": "138",
-      "logo": "/img/logo/jangwon.png",
+      "logo": "img/logo/jangwon.png",
       "name_eng": "Jangwon Centreville",
       "name_kor": "장원반점 센터빌",
       "location": {
@@ -14,7 +14,7 @@
 
     {
       "id": "1292",
-      "logo": "/img/logo/thestone.png",
+      "logo": "img/logo/thestone.png",
       "name_eng": "The Stone Tofu",
       "name_kor": "더 스톤 순두부",
       "location": {
@@ -28,7 +28,7 @@
 
     {
       "id": "151",
-      "logo": "/img/logo/cinnabon.jpg",
+      "logo": "img/logo/cinnabon.jpg",
       "name_eng": "JIU JIU KEBAB & BBQ",
       "name_kor": "쥬쥬 케밥",
       "location": {
@@ -41,7 +41,7 @@
 
     {
       "id": "1226",
-      "logo": "/img/logo/alegria.png",
+      "logo": "img/logo/alegria.png",
       "name_eng": "Alegria Food Court",
       "name_kor": "알레그리아 푸드코드",
       "location": {
@@ -55,7 +55,7 @@
 
     {
       "id": "1277",
-      "logo": "/img/logo/cinnabon.jpg",
+      "logo": "img/logo/cinnabon.jpg",
       "name_eng": "CINNABON MANASSAS",
       "name_kor": "시나본 메나사스",
       "location": {
@@ -68,7 +68,7 @@
 
     {
       "id": "1276",
-      "logo": "/img/logo/cinnabon.jpg",
+      "logo": "img/logo/cinnabon.jpg",
       "name_eng": "CINNABON TYSON'S CORNER",
       "name_kor": "시나본 타이슨스코너",
       "location": {
@@ -82,7 +82,7 @@
 
     {
       "id": "846",
-      "logo": "/img/logo/grove.png",
+      "logo": "img/logo/grove.png",
       "name_eng": "GROVE POKE & SALAD",
       "name_kor": "그로브 포케 & 샐러드",
       "location": {
@@ -95,7 +95,7 @@
 
     {
       "id": "846",
-      "logo": "/img/logo/yeoleobunsig.png",
+      "logo": "img/logo/yeoleobunsig.png",
       "name_eng": "yeoleobunsig",
       "name_kor": "여러분식",
       "location": {
@@ -108,7 +108,7 @@
 
     {
       "id": "807",
-      "logo": "/img/logo/eisenhower.png",
+      "logo": "img/logo/eisenhower.png",
       "name_eng": "EISENHOWER CAFE",
       "name_kor": "아이젠하워 카페",
       "location": {
@@ -121,7 +121,7 @@
 
     {
       "id": "1144",
-      "logo": "/img/logo/kabuki.png",
+      "logo": "img/logo/kabuki.png",
       "name_eng": "KABUKI JAPANESE STEAK",
       "name_kor": "카부키 철판스테이크",
       "location": {
@@ -134,7 +134,7 @@
 
     {
       "id": "1212",
-      "logo": "/img/logo/norbys.png",
+      "logo": "img/logo/norbys.png",
       "name_eng": "NORBYS CAFE",
       "name_kor": "노비스 카페",
       "location": {
@@ -147,7 +147,7 @@
 
     {
       "id": "400",
-      "logo": "/img/logo/alegria.png",
+      "logo": "img/logo/alegria.png",
       "name_eng": "Noodles & Friends Richmond #1",
       "name_kor": "누들 & 친구들",
       "location": {
@@ -160,7 +160,7 @@
 
     {
       "id": "807",
-      "logo": "/img/logo/eisenhower.png",
+      "logo": "img/logo/eisenhower.png",
       "name_eng": "Sizzling Fresh Mongolian BBQ",
       "name_kor": "시즐링 몽골리안 바베큐",
       "location": {
@@ -173,7 +173,7 @@
 
     {
       "id": "153",
-      "logo": "/img/logo/myungga.jpg",
+      "logo": "img/logo/myungga.jpg",
       "name_eng": "Myung Ga Gimbap",
       "name_kor": "명가김밥",
       "location": {
