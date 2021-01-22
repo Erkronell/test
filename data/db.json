@@ -173,7 +173,7 @@
 
     {
       "id": "153",
-      "logo": "img/logo/myungga.jpg",
+      "logo": "./img/logo/myungga.jpg",
       "name_eng": "Myung Ga Gimbap",
       "name_kor": "명가김밥",
       "location": {
