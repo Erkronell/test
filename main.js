@@ -27,6 +27,8 @@ function loadItems() {
   .then(json => json.restaurants_list);
 }
 
+
+
 function displayItems(restaurants_list) {
   const container = document.querySelector('.restaurants_list');
   restaurants_list.map(item => getDistance(item));
@@ -80,15 +82,25 @@ function createHTMLString(item) {
   `;}
 }
 
-function onButtonClick(event, restaurants_list){
+function onButtonClick(event, restaurants_list) {
   console.log(event.target.dataset.key);
+  console.log(event.target.dataset.value);
 }
 
 function setEventListeners(restaurants_list) {
-  const buttons = document.querySelector('.aaa');
+  const buttons = document.querySelector('.korean');
   buttons.addEventListener('click', event => onButtonClick(event, restaurants_list));
 }
 
+// loadItems()
+//   .then(restaurants_list => {
+//     console.log(restaurants_list);
+//     displayItems(restaurants_list);     
+//     // setEventListeners(weborders)
+//   })
+//   .catch(console.log);
+
+ 
 navigator.geolocation.getCurrentPosition(function(pos) {
   mylatitude = pos.coords.latitude;
   mylongitude = pos.coords.longitude;  
