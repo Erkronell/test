@@ -21,30 +21,11 @@ $(document).ready(function () {
 let mylatitude, mylongitude;
 let distance;
 
-
-navigator.geolocation.getCurrentPosition(function(pos) {
-  mylatitude = pos.coords.latitude;
-  mylongitude = pos.coords.longitude;  
-
-  loadItems()
-  .then(restaurants_list => {
-    console.log(restaurants_list);
-    displayItems(restaurants_list);     
-    // setEventListeners(weborders)
-  })
-  .catch(console.log);
-});
-
-
-
-
 function loadItems() {
   return fetch('data/db.json')
   .then(response => response.json())
   .then(json => json.restaurants_list);
 }
-
-
 
 function displayItems(restaurants_list) {
   const container = document.querySelector('.restaurants_list');
@@ -99,10 +80,24 @@ function createHTMLString(item) {
   `;}
 }
 
-// loadItems()
-//   .then(restaurants_list => {
-//     console.log(restaurants_list);
-//     displayItems(restaurants_list);     
-//     // setEventListeners(weborders)
-//   })
-//   .catch(console.log);
+function onButtonClick(event, restaurants_list){
+  console.log(event.target.dataset.key);
+}
+
+function setEventListeners(restaurants_list) {
+  const buttons = document.querySelector('.aaa');
+  buttons.addEventListener('click', event => onButtonClick(event, restaurants_list));
+}
+
+navigator.geolocation.getCurrentPosition(function(pos) {
+  mylatitude = pos.coords.latitude;
+  mylongitude = pos.coords.longitude;  
+
+  loadItems()
+  .then(restaurants_list => {
+    console.log(restaurants_list);
+    displayItems(restaurants_list);     
+    setEventListeners(restaurants_list);
+  })
+  .catch(console.log);
+});
