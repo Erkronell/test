@@ -77,7 +77,7 @@ function onButtonClick(event, restaurants_list){
     return;
   }
   
-  const filtered = restaurants_list.filter(item => item[key] === value);
+  const filtered = restaurants_list.filter(item => item[key].includes(value));
   displayItems(filtered);
 }
 
@@ -94,8 +94,7 @@ navigator.geolocation.getCurrentPosition(function(pos) {
 
   loadItems()
   .then(restaurants_list => {    
-    displayItems(restaurants_list);
-    console.log(restaurants_list);
+    displayItems(restaurants_list);    
     setEventListeners(restaurants_list);
   })
   .catch(console.log);
