@@ -8,8 +8,11 @@
         "latitude": 38.83837504347552, 
         "longitude": -77.42761400191903
         },
+      "city": "Centrevill",
+      "state": "VA",
       "description": "Korean Chinese Restaurant",
-      "weblink": "http://order.pbsus.com/jangwon"
+      "weblink": "http://order.pbsus.com/jangwon",
+      "type": { "chinese"
     },
 
     {
@@ -20,10 +23,12 @@
       "location": {
         "latitude": 33.41536069897526, 
         "longitude": -111.87150762782585
-        }
-,
+        },
+      "city": "Mesa",
+      "state": "AZ",
       "description": "Korean Restaurant",
-      "weblink": "http://order.pbsus.com/stoneaz"
+      "weblink": "http://order.pbsus.com/stoneaz",
+      "type": "korean"
     },
 
     {
@@ -35,8 +40,11 @@
         "latitude": 38.57413018773648, 
         "longitude": -121.33486489278069
         },
+      "city": "Sacramento",
+      "state": "CA",
       "description": "Korean Chinese Restaurant",
-      "weblink": "http://order.pbsus.com/jiujiu"
+      "weblink": "http://order.pbsus.com/jiujiu",
+      "type": "korean"
     },
 
     {
@@ -47,10 +55,12 @@
       "location": {
         "latitude": 38.98411695654549, 
         "longitude": -76.98207045967403
-        }
-,
+        },
+      "city": "Hyattsville",
+      "state": "MD",
       "description": "Korean Restaurant",
-      "weblink": "http://order.pbsus.com/alegria"
+      "weblink": "http://order.pbsus.com/alegria",
+      "type": "korean"
     },
 
     {
@@ -62,8 +72,11 @@
         "latitude": 38.77348643429171, 
         "longitude": -77.5050124443377
         },
+      "city": "Manassas",
+      "state": "VA",
       "description": "Cafe Dessert Bakery",
-      "weblink": "http://order.pbsus.com/cinnabon"
+      "weblink": "http://order.pbsus.com/cinnabon",
+      "type": "bakery"
     },
 
     {
@@ -74,10 +87,12 @@
       "location": {
         "latitude": 38.91808103009649, 
         "longitude": -77.22129075782917
-        }
-,
+        },
+      "city": "Mclean",
+      "state": "VA",
       "description": "Cafe Dessert Bakery",
-      "weblink": "http://order.pbsus.com/stoneaz"
+      "weblink": "http://order.pbsus.com/cinnabon",
+      "type": "bakery"
     },
 
     {
@@ -89,8 +104,11 @@
         "latitude": 38.88182644921128, 
         "longitude": -77.2282133179168
         },
+      "city": "Vienna",
+      "state": "VA",
       "description": "Japanese Korean ",
-      "weblink": "http://order.pbsus.com/grove"
+      "weblink": "http://order.pbsus.com/grove",
+      "type": "japanese"
     },
 
     {
@@ -102,8 +120,11 @@
         "latitude": 38.83698880560026, 
         "longitude": -77.42607150200676
         },
+      "city": "Centreville",
+      "state": "VA",
       "description": "Korean",
-      "weblink": "http://order.pbsus.com/yeoleobunsig"
+      "weblink": "http://order.pbsus.com/yeoleobunsig",
+      "type": "korean"
     },
 
     {
@@ -115,8 +136,11 @@
         "latitude": 38.80412344159724, 
         "longitude": -77.11713350996298
         },
+      "city": "Alexandria",
+      "state": "VA",
       "description": "Deli Cafe Bakery",
-      "weblink": "http://order.pbsus.com/eisenhower"
+      "weblink": "http://order.pbsus.com/eisenhower",
+      "type": "deli"
     },
 
     {
@@ -128,8 +152,11 @@
         "latitude": 37.35235372273175, 
         "longitude": -77.4844167811578
         },
+      "city": "Chester",
+      "state": "VA",
       "description": "Japanese Sushi Korean",
-      "weblink": "http://order.pbsus.com/kabuki"
+      "weblink": "http://order.pbsus.com/kabuki",
+      "type": "japanese"
     },
 
     {
@@ -141,21 +168,43 @@
         "latitude": 39.09530927221592, 
         "longitude": -77.11120144248459
         },
+      "city": "Rockville",
+      "state": "MD",
       "description": "Deli Cafe Bakery",
-      "weblink": "http://order.pbsus.com/norbys"
+      "weblink": "http://order.pbsus.com/norbys",
+      "type": "deli"
     },
 
     {
       "id": "400",
       "logo": "img/logo/alegria.png",
-      "name_eng": "Noodles & Friends Richmond #1",
+      "name_eng": "Noodles & Friends #1",
       "name_kor": "누들 & 친구들",
       "location": {
-        "latitude": 37.498780570286705, 
-        "longitude": -77.53176611056021
+        "latitude": 37.500739237044556, 
+        "longitude": -77.5295917557646
         },
-      "description": "Deli Cafe Bakery",
-      "weblink": "http://order.pbsus.com/alegria"
+      "city": "Richmond",
+      "state": "VA",
+      "description": "Korean",
+      "weblink": "http://order.pbsus.com/alegria",
+      "type": "korean"
+    },
+    
+    {
+    "id": "820",
+      "logo": "img/logo/alegria.png",
+      "name_eng": "Noodles & Friends #2",
+      "name_kor": "누들 & 친구들",
+      "location": {
+        "latitude": 37.634698882391056,
+        "longitude": -77.54897811737258
+        },
+      "city": "Richmond",
+      "state": "VA",
+      "description": "Korean",
+      "weblink": "http://order.pbsus.com/alegria",
+      "type": "korean"
     },
 
     {
@@ -167,8 +216,155 @@
         "latitude": 38.63493187873003, 
         "longitude": -121.50281760442758
         },
+      "city": "Sacramento",
+      "state": "CA",
       "description": "BBQ",
-      "weblink": "http://order.pbsus.com/sizzling"
+      "weblink": "http://order.pbsus.com/sizzling",
+      "type": "korean"
+    },
+    
+    {
+      "id": "807",
+      "logo": "img/logo/eisenhower.png",
+      "name_eng": "Sizzling Fresh Mongolian BBQ",
+      "name_kor": "시즐링 몽골리안 바베큐",
+      "location": {
+        "latitude": 38.63493187873003, 
+        "longitude": -121.50281760442758
+        },
+      "city": "Sacramento",
+      "state": "CA",
+      "description": "BBQ",
+      "weblink": "http://order.pbsus.com/sizzling",
+      "type": "korean"
+    },
+    
+    {
+      "id": "807",
+      "logo": "img/logo/eisenhower.png",
+      "name_eng": "Sizzling Fresh Mongolian BBQ",
+      "name_kor": "시즐링 몽골리안 바베큐",
+      "location": {
+        "latitude": 38.63493187873003, 
+        "longitude": -121.50281760442758
+        },
+      "city": "Sacramento",
+      "state": "CA",
+      "description": "BBQ",
+      "weblink": "http://order.pbsus.com/sizzling",
+      "type": "korean"
+    },
+    
+    {
+      "id": "807",
+      "logo": "img/logo/eisenhower.png",
+      "name_eng": "Sizzling Fresh Mongolian BBQ",
+      "name_kor": "시즐링 몽골리안 바베큐",
+      "location": {
+        "latitude": 38.63493187873003, 
+        "longitude": -121.50281760442758
+        },
+      "city": "Sacramento",
+      "state": "CA",
+      "description": "BBQ",
+      "weblink": "http://order.pbsus.com/sizzling",
+      "type": "korean"
+    },
+    
+    {
+      "id": "807",
+      "logo": "img/logo/eisenhower.png",
+      "name_eng": "Sizzling Fresh Mongolian BBQ",
+      "name_kor": "시즐링 몽골리안 바베큐",
+      "location": {
+        "latitude": 38.63493187873003, 
+        "longitude": -121.50281760442758
+        },
+      "city": "Sacramento",
+      "state": "CA",
+      "description": "BBQ",
+      "weblink": "http://order.pbsus.com/sizzling",
+      "type": "korean"
+    },
+    
+    {
+      "id": "807",
+      "logo": "img/logo/eisenhower.png",
+      "name_eng": "Sizzling Fresh Mongolian BBQ",
+      "name_kor": "시즐링 몽골리안 바베큐",
+      "location": {
+        "latitude": 38.63493187873003, 
+        "longitude": -121.50281760442758
+        },
+      "city": "Sacramento",
+      "state": "CA",
+      "description": "BBQ",
+      "weblink": "http://order.pbsus.com/sizzling",
+      "type": "korean"
+    },
+    
+    {
+      "id": "807",
+      "logo": "img/logo/eisenhower.png",
+      "name_eng": "Sizzling Fresh Mongolian BBQ",
+      "name_kor": "시즐링 몽골리안 바베큐",
+      "location": {
+        "latitude": 38.63493187873003, 
+        "longitude": -121.50281760442758
+        },
+      "city": "Sacramento",
+      "state": "CA",
+      "description": "BBQ",
+      "weblink": "http://order.pbsus.com/sizzling",
+      "type": "korean"
+    },
+    
+    {
+      "id": "807",
+      "logo": "img/logo/eisenhower.png",
+      "name_eng": "Sizzling Fresh Mongolian BBQ",
+      "name_kor": "시즐링 몽골리안 바베큐",
+      "location": {
+        "latitude": 38.63493187873003, 
+        "longitude": -121.50281760442758
+        },
+      "city": "Sacramento",
+      "state": "CA",
+      "description": "BBQ",
+      "weblink": "http://order.pbsus.com/sizzling",
+      "type": "korean"
+    },
+    
+    {
+      "id": "807",
+      "logo": "img/logo/eisenhower.png",
+      "name_eng": "Sizzling Fresh Mongolian BBQ",
+      "name_kor": "시즐링 몽골리안 바베큐",
+      "location": {
+        "latitude": 38.63493187873003, 
+        "longitude": -121.50281760442758
+        },
+      "city": "Sacramento",
+      "state": "CA",
+      "description": "BBQ",
+      "weblink": "http://order.pbsus.com/sizzling",
+      "type": "korean"
+    },
+    
+    {
+      "id": "807",
+      "logo": "img/logo/eisenhower.png",
+      "name_eng": "Sizzling Fresh Mongolian BBQ",
+      "name_kor": "시즐링 몽골리안 바베큐",
+      "location": {
+        "latitude": 38.63493187873003, 
+        "longitude": -121.50281760442758
+        },
+      "city": "Sacramento",
+      "state": "CA",
+      "description": "BBQ",
+      "weblink": "http://order.pbsus.com/sizzling",
+      "type": "korean"
     },
 
     {
@@ -180,8 +376,11 @@
         "latitude": 38.836380407880505, 
         "longitude": -77.43717054424727
       },
+      "city": "Centreville",
+      "state": "VA",
       "description": "korean Deli",
-      "weblink": "http://order.pbsus.com/myungga"
+      "weblink": "http://order.pbsus.com/myungga",
+      "type": "korean-deli"
     }
   ]
 }
