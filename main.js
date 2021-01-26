@@ -5,18 +5,6 @@ $(document).ready(function () {
     pager: false,
   });
 });
-$(document).ready(function () {
-  $(".slider2").bxSlider({
-    slideWidth: 200,
-    slideMargin: 15,
-    minSlides: 5,
-    maxSlides: 8,
-    infiniteLoop: true,
-    controls: false,
-    pager: false,
-    shrinkItems: true,
-  });
-});
 
 let mylatitude, mylongitude;
 let distance;
@@ -26,8 +14,6 @@ function loadItems() {
   .then(response => response.json())
   .then(json => json.restaurants_list);
 }
-
-
 
 function displayItems(restaurants_list) {
   const container = document.querySelector('.restaurants_list');
@@ -59,18 +45,19 @@ function getDistanceFromLatLonInMi(lat1,lng1,lat2,lng2) {
 
 
 function createHTMLString(item) {
-  if(item.distance >= 50) {
+  if(item.distance >= 10000) {
     return;
   } else {
   return `
   <li class="restaurant" id="${item.name_eng}">
-  <a href="${item.weblink}">
+  <a href="${item.weblink}" target="blank">
   <div class="res_logo">
     <img src="${item.logo}" alt="Logo" />
   </div>
   <div class="res_information">
     <span class="name_eng">${item.name_eng}</span>
     <span class="name_kor">${item.name_kor}</span>
+    <span class="city">${item.city}, ${item.state}</span>
     <span class="description"
       >${item.description}
     </span>
@@ -82,32 +69,32 @@ function createHTMLString(item) {
   `;}
 }
 
-function onButtonClick(event, restaurants_list) {
-  console.log(event.target.dataset.key);
-  console.log(event.target.dataset.value);
+function onButtonClick(event, restaurants_list){
+  const dataset = event.target.dataset;
+  const key = dataset.key;
+  const value = dataset.value;
+
+  if (key == null || value == null) {
+    return;
+  }
+  
+
+  const filtered = restaurants_list.filter(item => item[key] === value);
+  console.log(filtered);
+  displayItems(filtered);
 }
 
 function setEventListeners(restaurants_list) {
-  const buttons = document.querySelector('.korean');
+  const buttons = document.querySelector('.category');
   buttons.addEventListener('click', event => onButtonClick(event, restaurants_list));
 }
 
-// loadItems()
-//   .then(restaurants_list => {
-//     console.log(restaurants_list);
-//     displayItems(restaurants_list);     
-//     // setEventListeners(weborders)
-//   })
-//   .catch(console.log);
-
- 
 navigator.geolocation.getCurrentPosition(function(pos) {
   mylatitude = pos.coords.latitude;
   mylongitude = pos.coords.longitude;  
 
   loadItems()
-  .then(restaurants_list => {
-    console.log(restaurants_list);
+  .then(restaurants_list => {    
     displayItems(restaurants_list);     
     setEventListeners(restaurants_list);
   })
