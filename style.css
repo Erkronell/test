@@ -129,6 +129,14 @@ header .header__logo span {
   width: 100%;
 }
 
+.button {
+  cursor: pointer;
+}
+.button p {
+  text-align: center;
+  font-weight: 600;
+}
+
 .item_list {
   text-align: center;
   margin: 40px 0;

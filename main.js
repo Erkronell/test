@@ -71,21 +71,20 @@ function createHTMLString(item) {
 
 function onButtonClick(event, restaurants_list){
   const dataset = event.target.dataset;
-  const key = dataset.key;
-  const value = dataset.value;
-
+  const key = dataset.key;  
+  const value = dataset.value;  
   if (key == null || value == null) {
     return;
   }
   
-
   const filtered = restaurants_list.filter(item => item[key] === value);
-  console.log(filtered);
   displayItems(filtered);
 }
 
 function setEventListeners(restaurants_list) {
+  const all = document.querySelector('.all');
   const buttons = document.querySelector('.category');
+  all.addEventListener('click', () => displayItems(restaurants_list));
   buttons.addEventListener('click', event => onButtonClick(event, restaurants_list));
 }
 
@@ -95,7 +94,8 @@ navigator.geolocation.getCurrentPosition(function(pos) {
 
   loadItems()
   .then(restaurants_list => {    
-    displayItems(restaurants_list);     
+    displayItems(restaurants_list);
+    console.log(restaurants_list);
     setEventListeners(restaurants_list);
   })
   .catch(console.log);
