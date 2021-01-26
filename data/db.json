@@ -10,9 +10,9 @@
         },
       "city": "Centrevill",
       "state": "VA",
-      "description": "Korean Chinese Restaurant",
+      "description": "#Korean #Chinese",
       "weblink": "http://order.pbsus.com/jangwon",
-      "type": "chinese"
+      "type": [ "chinese", "korean" ]
     },
 
     {
@@ -26,9 +26,9 @@
         },
       "city": "Mesa",
       "state": "AZ",
-      "description": "Korean Restaurant",
+      "description": "#Korean #BBQ",
       "weblink": "http://order.pbsus.com/stoneaz",
-      "type": "korean"
+      "type": [ "korean", "BBQ" ]
     },
 
     {
@@ -42,9 +42,9 @@
         },
       "city": "Sacramento",
       "state": "CA",
-      "description": "Korean Chinese Restaurant",
+      "description": "#Korean #BBQ",
       "weblink": "http://order.pbsus.com/jiujiu",
-      "type": "korean"
+      "type": [ "korean", "BBQ" ]
     },
 
     {
@@ -58,9 +58,9 @@
         },
       "city": "Hyattsville",
       "state": "MD",
-      "description": "Korean Restaurant",
-      "weblink": "http://order.pbsus.com/alegria",
-      "type": "korean"
+      "description": "#Korean #Chinese",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=400003&&isDelivery=0&&strKiosk=false",
+      "type": [ "korean", "chinese" ]
     },
 
     {
@@ -74,9 +74,9 @@
         },
       "city": "Manassas",
       "state": "VA",
-      "description": "Cafe Dessert Bakery",
-      "weblink": "http://order.pbsus.com/cinnabon",
-      "type": "bakery"
+      "description": "#Cafe #Dessert #Bakery",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=276002&&isDelivery=0&&strKiosk=false",
+      "type": [ "bakery", "cafe", "dessert" ]
     },
 
     {
@@ -90,9 +90,9 @@
         },
       "city": "Mclean",
       "state": "VA",
-      "description": "Cafe Dessert Bakery",
-      "weblink": "http://order.pbsus.com/cinnabon",
-      "type": "bakery"
+      "description": "#Cafe #Dessert #Bakery",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=276001&&isDelivery=0&&strKiosk=false",
+      "type": [ "bakery", "cafe", "dessert" ]
     },
 
     {
@@ -106,9 +106,9 @@
         },
       "city": "Vienna",
       "state": "VA",
-      "description": "Japanese Korean ",
+      "description": "#Japanese #Korean",
       "weblink": "http://order.pbsus.com/grove",
-      "type": "japanese"
+      "type": [ "japanese", "korean" ]
     },
 
     {
@@ -122,9 +122,9 @@
         },
       "city": "Centreville",
       "state": "VA",
-      "description": "Korean",
+      "description": "#Korean #Korean-deli",
       "weblink": "http://order.pbsus.com/yeoleobunsig",
-      "type": "korean"
+      "type": [ "korean", "korean-deli" ]
     },
 
     {
@@ -138,9 +138,9 @@
         },
       "city": "Alexandria",
       "state": "VA",
-      "description": "Deli Cafe Bakery",
+      "description": "#Deli #Cafe #Bakery",
       "weblink": "http://order.pbsus.com/eisenhower",
-      "type": "deli"
+      "type": [ "deli", "cafe", "dessert" ]
     },
 
     {
@@ -154,9 +154,9 @@
         },
       "city": "Chester",
       "state": "VA",
-      "description": "Japanese Sushi Korean",
+      "description": "#Japanese #BBQ",
       "weblink": "http://order.pbsus.com/kabuki",
-      "type": "japanese"
+      "type": [ "japanese", "BBQ" ]
     },
 
     {
@@ -170,9 +170,9 @@
         },
       "city": "Rockville",
       "state": "MD",
-      "description": "Deli Cafe Bakery",
+      "description": "#Deli #Cafe #Bakery",
       "weblink": "http://order.pbsus.com/norbys",
-      "type": "deli"
+      "type": [ "deli", "cafe", "dessert" ]
     },
 
     {
@@ -186,9 +186,9 @@
         },
       "city": "Richmond",
       "state": "VA",
-      "description": "Korean",
-      "weblink": "http://order.pbsus.com/alegria",
-      "type": "korean"
+      "description": "#Korean #Chinese",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=400001&&isDelivery=0&&strKiosk=false",
+      "type": [ "korean", "chinese" ]
     },
     
     {
@@ -202,15 +202,15 @@
         },
       "city": "Richmond",
       "state": "VA",
-      "description": "Korean",
-      "weblink": "http://order.pbsus.com/alegria",
-      "type": "korean"
+      "description": "#Korean #Chinese",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=400002&&isDelivery=0&&strKiosk=false",
+      "type": [ "korean", "chinese" ]
     },
 
     {
       "id": "807",
       "logo": "img/logo/eisenhower.png",
-      "name_eng": "Sizzling Fresh Mongolian BBQ",
+      "name_eng": "Sizzling BBQ",
       "name_kor": "시즐링 몽골리안 바베큐",
       "location": {
         "latitude": 38.63493187873003, 
@@ -218,155 +218,139 @@
         },
       "city": "Sacramento",
       "state": "CA",
-      "description": "BBQ",
+      "description": "#Korean #BBQ",
       "weblink": "http://order.pbsus.com/sizzling",
-      "type": "korean"
+      "type": [ "korean", "BBQ" ]
     },
     
     {
-      "id": "807",
-      "logo": "img/logo/eisenhower.png",
-      "name_eng": "Sizzling Fresh Mongolian BBQ",
-      "name_kor": "시즐링 몽골리안 바베큐",
+      "id": "976",
+      "logo": "img/logo/kokeetea.png",
+      "name_eng": "Kokee Tea (Wheaton)",
+      "name_kor": "코키티",
       "location": {
-        "latitude": 38.63493187873003, 
-        "longitude": -121.50281760442758
+        "latitude": 39.0369444153452, 
+        "longitude": -77.05447325044135
         },
-      "city": "Sacramento",
-      "state": "CA",
-      "description": "BBQ",
-      "weblink": "http://order.pbsus.com/sizzling",
-      "type": "korean"
+      "city": "Wheaton",
+      "state": "MD",
+      "description": "#Cafe #Dessert #Bakery",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=963002&&isDelivery=0&&strKiosk=false",
+      "type": [ "dessert", "bakery", "cafe" ]
     },
     
     {
-      "id": "807",
-      "logo": "img/logo/eisenhower.png",
-      "name_eng": "Sizzling Fresh Mongolian BBQ",
-      "name_kor": "시즐링 몽골리안 바베큐",
+      "id": "1104",
+      "logo": "img/logo/kokeetea.png",
+      "name_eng": "Kokee Tea (North Star)",
+      "name_kor": "코키티",
       "location": {
-        "latitude": 38.63493187873003, 
-        "longitude": -121.50281760442758
+        "latitude": 29.51858483362681, 
+        "longitude": -98.49631791751949
         },
-      "city": "Sacramento",
-      "state": "CA",
-      "description": "BBQ",
-      "weblink": "http://order.pbsus.com/sizzling",
-      "type": "korean"
+      "city": "San Antonio",
+      "state": "TX",
+      "description": "#Cafe #Dessert #Bakery",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=963007&&isDelivery=0&&strKiosk=false",
+      "type": [ "dessert", "bakery", "cafe" ]
     },
     
     {
-      "id": "807",
-      "logo": "img/logo/eisenhower.png",
-      "name_eng": "Sizzling Fresh Mongolian BBQ",
-      "name_kor": "시즐링 몽골리안 바베큐",
+      "id": "1108",
+      "logo": "img/logo/kokeetea.png",
+      "name_eng": "Kokee Tea (La Cantera)",
+      "name_kor": "코키티",
       "location": {
-        "latitude": 38.63493187873003, 
-        "longitude": -121.50281760442758
+        "latitude": 29.592543834410602,
+        "longitude": -98.61192307518867
         },
-      "city": "Sacramento",
-      "state": "CA",
-      "description": "BBQ",
-      "weblink": "http://order.pbsus.com/sizzling",
-      "type": "korean"
+        "city": "San Antonio",
+        "state": "TX",
+        "description": "#Cafe #Dessert #Bakery",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=963008&&isDelivery=0&&strKiosk=false",
+      "type": [ "dessert", "bakery", "cafe" ]
     },
     
     {
-      "id": "807",
-      "logo": "img/logo/eisenhower.png",
-      "name_eng": "Sizzling Fresh Mongolian BBQ",
-      "name_kor": "시즐링 몽골리안 바베큐",
+      "id": "742",
+      "logo": "img/logo/kokeetea.png",
+      "name_eng": "Kokee Tea (Fair Oaks Mall)",
+      "name_kor": "코키티",
       "location": {
         "latitude": 38.63493187873003, 
         "longitude": -121.50281760442758
         },
-      "city": "Sacramento",
-      "state": "CA",
-      "description": "BBQ",
-      "weblink": "http://order.pbsus.com/sizzling",
-      "type": "korean"
+      "city": "Fairfax",
+      "state": "VA",
+      "description": "#Cafe #Dessert #Bakery",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=963011&&isDelivery=0&&strKiosk=false",
+      "type": [ "dessert", "bakery", "cafe" ]
     },
     
     {
-      "id": "807",
-      "logo": "img/logo/eisenhower.png",
-      "name_eng": "Sizzling Fresh Mongolian BBQ",
-      "name_kor": "시즐링 몽골리안 바베큐",
+      "id": "1122",
+      "logo": "img/logo/kokeetea.png",
+      "name_eng": "Kokee Tea (Sugar Land)",
+      "name_kor": "코키티",
       "location": {
         "latitude": 38.63493187873003, 
         "longitude": -121.50281760442758
         },
-      "city": "Sacramento",
-      "state": "CA",
-      "description": "BBQ",
-      "weblink": "http://order.pbsus.com/sizzling",
-      "type": "korean"
+      "city": "Sugar Land",
+      "state": "TX",
+      "description": "#Cafe #Dessert #Bakery",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=963012&&isDelivery=0&&strKiosk=false",
+      "type": [ "dessert", "bakery", "cafe" ]
     },
     
     {
-      "id": "807",
-      "logo": "img/logo/eisenhower.png",
-      "name_eng": "Sizzling Fresh Mongolian BBQ",
-      "name_kor": "시즐링 몽골리안 바베큐",
+      "id": "1000",
+      "logo": "img/logo/kokeetea.png",
+      "name_eng": "Kokee Tea (Hulen)",
+      "name_kor": "코키티",      
       "location": {
-        "latitude": 38.63493187873003, 
-        "longitude": -121.50281760442758
+        "latitude": 32.67852605448761,  
+        "longitude": -97.39842980212615
         },
-      "city": "Sacramento",
-      "state": "CA",
-      "description": "BBQ",
-      "weblink": "http://order.pbsus.com/sizzling",
-      "type": "korean"
+      "city": "Fort Worth",
+      "state": "TX",
+      "description": "#Cafe #Dessert #Bakery",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=963013&&isDelivery=0&&strKiosk=false",
+      "type": [ "dessert", "bakery", "cafe" ]
     },
     
     {
-      "id": "807",
-      "logo": "img/logo/eisenhower.png",
-      "name_eng": "Sizzling Fresh Mongolian BBQ",
-      "name_kor": "시즐링 몽골리안 바베큐",
+      "id": "1137",
+      "logo": "img/logo/kokeetea.png",
+      "name_eng": "Kokee Tea (Arlington)",
+      "name_kor": "코키티",  
       "location": {
-        "latitude": 38.63493187873003, 
-        "longitude": -121.50281760442758
+        "latitude": 32.68101852746645, 
+        "longitude": 97.12936457570741
         },
-      "city": "Sacramento",
-      "state": "CA",
-      "description": "BBQ",
-      "weblink": "http://order.pbsus.com/sizzling",
-      "type": "korean"
+      "city": "Arlington",
+      "state": "VA",
+      "description": "#Cafe #Dessert #Bakery",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=963014&&isDelivery=0&&strKiosk=false",
+      "type": [ "dessert", "bakery", "cafe" ]
     },
     
     {
-      "id": "807",
-      "logo": "img/logo/eisenhower.png",
-      "name_eng": "Sizzling Fresh Mongolian BBQ",
-      "name_kor": "시즐링 몽골리안 바베큐",
+      "id": "639",
+      "logo": "img/logo/kokeetea.png",
+      "name_eng": "Kokee Tea (Springfield)",
+      "name_kor": "코키티",
       "location": {
-        "latitude": 38.63493187873003, 
-        "longitude": -121.50281760442758
+        "latitude": 38.77482763790552,
+        "longitude": -77.17447340200808
         },
-      "city": "Sacramento",
-      "state": "CA",
-      "description": "BBQ",
-      "weblink": "http://order.pbsus.com/sizzling",
-      "type": "korean"
+      "city": "Spirngfield",
+      "state": "VA",
+      "description": "#Cafe #Dessert #Bakery",
+      "weblink": "http://order.pbsus.com/Home/Index?storeid=963017&&isDelivery=0&&strKiosk=false",
+      "type": [ "dessert", "bakery", "cafe" ]
     },
     
-    {
-      "id": "807",
-      "logo": "img/logo/eisenhower.png",
-      "name_eng": "Sizzling Fresh Mongolian BBQ",
-      "name_kor": "시즐링 몽골리안 바베큐",
-      "location": {
-        "latitude": 38.63493187873003, 
-        "longitude": -121.50281760442758
-        },
-      "city": "Sacramento",
-      "state": "CA",
-      "description": "BBQ",
-      "weblink": "http://order.pbsus.com/sizzling",
-      "type": "korean"
-    },
-
     {
       "id": "153",
       "logo": "./img/logo/myungga.jpg",
@@ -378,9 +362,9 @@
       },
       "city": "Centreville",
       "state": "VA",
-      "description": "korean Deli",
+      "description": "#Korean #Korean Deli",
       "weblink": "http://order.pbsus.com/myungga",
-      "type": "korean-deli"
+      "type": [ "korean-deli", "korean" ]
     }
   ]
 }
