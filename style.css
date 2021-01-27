@@ -180,8 +180,8 @@ header .header__logo span {
 }
 
 .distance {
-  background-color: #1985c1;
-  color: #fff;
+  background-color: peachpuff;
+  color: var(--black-color);
   font-size: var(--font-medium);
   padding: 6px;
   border-radius: 4px;
@@ -190,7 +190,6 @@ header .header__logo span {
 footer {
   margin: 100px 0 20px 0;
   text-align: center;
-  font-weight: 600;
 }
 
 @media all and (max-width: 767px) {
@@ -249,5 +248,8 @@ footer {
 
   .button p {
     font-size: var(--font-small);
+  }
+  footer {
+    margin: 50px 0 20px 0;
   }
 }
