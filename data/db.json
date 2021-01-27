@@ -277,8 +277,8 @@
       "name_eng": "Kokee Tea (Fair Oaks Mall)",
       "name_kor": "코키티",
       "location": {
-        "latitude": 38.63493187873003, 
-        "longitude": -121.50281760442758
+        "latitude": 38.862750176374995,
+        "longitude": -77.35919850385251
         },
       "city": "Fairfax",
       "state": "VA",
@@ -293,8 +293,8 @@
       "name_eng": "Kokee Tea (Sugar Land)",
       "name_kor": "코키티",
       "location": {
-        "latitude": 38.63493187873003, 
-        "longitude": -121.50281760442758
+        "latitude": 29.59183721181207, 
+        "longitude": -95.62435143285904
         },
       "city": "Sugar Land",
       "state": "TX",
@@ -325,11 +325,11 @@
       "name_eng": "Kokee Tea (Arlington)",
       "name_kor": "코키티",  
       "location": {
-        "latitude": 32.68101852746645, 
-        "longitude": 97.12936457570741
+        "latitude": 32.68107270955454,
+        "longitude": -97.12987955979644
         },
       "city": "Arlington",
-      "state": "VA",
+      "state": "TX",
       "description": "#Cafe #Dessert #Bakery",
       "weblink": "http://order.pbsus.com/Home/Index?storeid=963014&&isDelivery=0&&strKiosk=false",
       "type": [ "dessert", "bakery", "cafe" ]
