@@ -6,6 +6,22 @@ $(document).ready(function () {
   });
 });
 
+$(function(){  
+  var page = $('.categories');
+  var pageOffsetTop = page.offset().top;
+  $(window).resize(function(){
+    pageOffsetTop = page.offset().top;
+  });
+  console.log(pageOffsetTop);
+  $(window).on('scroll', function(){
+    if($(window).scrollTop() >= pageOffsetTop) {
+      page.addClass('shadow');
+    } else {
+      page.removeClass('shadow');
+    }
+  });
+});
+
 let mylatitude, mylongitude;
 let distance;
 
@@ -50,6 +66,7 @@ function createHTMLString(item) {
   } else {
   return `
   <li class="restaurant" id="${item.name_eng}">
+  <div class="inner-box">
   <a href="${item.weblink}" target="blank">
   <div class="res_logo">
     <img src="${item.logo}" alt="Logo" />
@@ -64,7 +81,7 @@ function createHTMLString(item) {
   </div>
   <div class="res_distance">
     <span class="distance">${item.distance}mi</span>
-  </div></a>
+  </div></a></div>  
 </li>
   `;}
 }

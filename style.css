@@ -53,7 +53,7 @@ a:active {
 }
 
 .body__ {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin: auto;
 }
 
@@ -71,19 +71,27 @@ header .header__logo span {
 
 .categories {
   background-color: white;
-  margin: 5px;
+  /* margin: 5px; */
   position: sticky;
   top: 0;
 }
 
+.shadow {
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
 .category {
   display: flex;
+  max-width: 1400px;
+  margin: auto;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .category .button {
-  margin-top: 15px;
+  margin: 15px 0;
   width: 120px;
 }
 
@@ -101,6 +109,10 @@ header .header__logo span {
   font-weight: 600;
 }
 
+.button:hover {
+  color: #1985c1;
+}
+
 .item_list {
   text-align: center;
   margin: 40px 0;
@@ -108,25 +120,36 @@ header .header__logo span {
   font-weight: 600;
 }
 
-.restaurants {
-  margin: 5px;
+.restaurant {
+  margin-top: 10px;
+}
+
+.inner-box {
+  max-width: 1400px;
+  margin: auto;
 }
 
 .restaurant a {
   display: flex;
-  margin-bottom: 10px;
   justify-content: space-between;
   cursor: pointer;
 }
 
-.restaurant a:hover {
-  background-color: var(--res-name-eng-color);
+.restaurant:hover {
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.res_logo {
+  width: 150px;
+  height: 150px;
 }
 
 .res_logo img {
   width: 150px;
   height: 150px;
-  border-radius: 10px;
+  border-radius: 20%;
 }
 
 .res_information {
@@ -165,7 +188,9 @@ header .header__logo span {
 }
 
 footer {
+  margin: 100px 0 20px 0;
   text-align: center;
+  font-weight: 600;
 }
 
 @media all and (max-width: 767px) {
@@ -191,6 +216,12 @@ footer {
   .header__menu i {
     display: inline;
   }
+
+  .res_logo {
+    width: 80px;
+    height: 80px;
+  }
+
   .res_logo img {
     width: 80px;
     height: 80px;
@@ -199,7 +230,7 @@ footer {
 
   .category .button {
     width: 50px;
-    margin: 0 10px;
+    margin: 10px 10px;
   }
 
   .description {
